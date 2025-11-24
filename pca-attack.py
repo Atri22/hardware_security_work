@@ -12,24 +12,7 @@ from typing import List
 
 
 
-# Globals
-NUM_KEY_BYTES = 16
-TRACES = None
-PLAINTEXTS = None
-KEYS = None
-TRACES_REDUCED = None
-VARIABLES = [None] * NUM_KEY_BYTES
-SETS = None
-MEANS = None
-VARS = None
-STDS = None
-PROFILE_MEANS = None
-PROFILE_STDS = None
-PROFILE_COVS = None
-POIS = None
-MEANS_PROFILE = None
-MEANS_TEST = None
-LOG_PROBA = None
+
 
 NUM_KEY_BYTES = 16
 TRACES = None
@@ -363,3 +346,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
